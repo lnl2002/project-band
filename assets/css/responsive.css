@@ -1,0 +1,70 @@
+/* mobile */
+@media screen and (max-width: 768px) {
+    .mobile-icon{
+        display: inline-block;
+    }
+    .slider-title{
+        display: none;
+    }
+    .member{
+        flex-wrap: wrap;
+        
+    }
+
+    .member-band{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .member-band img{
+        width: 90%;
+    }
+
+    .member-band h4{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .tour-img {
+        flex-wrap: wrap;
+    }
+
+    .tour-img-info {
+        margin-bottom: 20px;
+    }
+
+    #contact .contact-detail{
+        display: inline-block;
+    }
+
+    .contact-detail-left{
+        padding-bottom: 20px;
+    }
+    
+    #contact .contact-detail .contact-detail-right .row{
+        display: inline;
+    }
+    #nav >li:hover> a{
+        background-color: black;
+        color: white;
+    }
+    #nav >li{
+        width: 100%;
+        display: block;
+    }
+   
+    #header{
+        overflow: hidden;
+    }
+    .search{
+        display: none;
+    }
+
+    #nav .last{
+        display: none;
+    }
+
+    #nav .merch {
+        display: inline-block;
+    }
+}
